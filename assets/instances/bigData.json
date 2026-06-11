@@ -1,0 +1,619 @@
+{
+  "name": "bigData",
+  "depot": {
+    "id": "D0",
+    "x": 300,
+    "y": 300,
+    "timeWindow": {
+      "start": 0,
+      "end": 900
+    }
+  },
+  "customers": [
+    {
+      "id": "G1",
+      "x": 163,
+      "y": 8,
+      "demand": 4,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 294,
+        "end": 452
+      },
+      "priority": 4
+    },
+    {
+      "id": "G2",
+      "x": 387,
+      "y": 274,
+      "demand": 7,
+      "serviceTime": 10,
+      "timeWindow": {
+        "start": 61,
+        "end": 308
+      },
+      "priority": 3
+    },
+    {
+      "id": "G3",
+      "x": 429,
+      "y": 394,
+      "demand": 9,
+      "serviceTime": 18,
+      "timeWindow": {
+        "start": 359,
+        "end": 412
+      },
+      "priority": 2
+    },
+    {
+      "id": "G4",
+      "x": 484,
+      "y": 197,
+      "demand": 3,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 572,
+        "end": 732
+      },
+      "priority": 3
+    },
+    {
+      "id": "G5",
+      "x": 216,
+      "y": 65,
+      "demand": 9,
+      "serviceTime": 16,
+      "timeWindow": {
+        "start": 129,
+        "end": 184
+      },
+      "priority": 2
+    },
+    {
+      "id": "G6",
+      "x": 154,
+      "y": 212,
+      "demand": 5,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 213,
+        "end": 438
+      },
+      "priority": 3
+    },
+    {
+      "id": "G7",
+      "x": 287,
+      "y": 435,
+      "demand": 9,
+      "serviceTime": 25,
+      "timeWindow": {
+        "start": 327,
+        "end": 483
+      },
+      "priority": 2
+    },
+    {
+      "id": "G8",
+      "x": 243,
+      "y": 130,
+      "demand": 8,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 244,
+        "end": 506
+      },
+      "priority": 3
+    },
+    {
+      "id": "G9",
+      "x": 294,
+      "y": 53,
+      "demand": 3,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 0,
+        "end": 209
+      },
+      "priority": 2
+    },
+    {
+      "id": "G10",
+      "x": 140,
+      "y": 587,
+      "demand": 10,
+      "serviceTime": 14,
+      "timeWindow": {
+        "start": 548,
+        "end": 590
+      },
+      "priority": 2
+    },
+    {
+      "id": "G11",
+      "x": 432,
+      "y": 488,
+      "demand": 9,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 139,
+        "end": 273
+      },
+      "priority": 2
+    },
+    {
+      "id": "G12",
+      "x": 28,
+      "y": 489,
+      "demand": 9,
+      "serviceTime": 16,
+      "timeWindow": {
+        "start": 551,
+        "end": 587
+      },
+      "priority": 3
+    },
+    {
+      "id": "G13",
+      "x": 432,
+      "y": 125,
+      "demand": 5,
+      "serviceTime": 18,
+      "timeWindow": {
+        "start": 293,
+        "end": 319
+      },
+      "priority": 1
+    },
+    {
+      "id": "G14",
+      "x": 369,
+      "y": 369,
+      "demand": 4,
+      "serviceTime": 10,
+      "timeWindow": {
+        "start": 593,
+        "end": 762
+      },
+      "priority": 1
+    },
+    {
+      "id": "G15",
+      "x": 465,
+      "y": 383,
+      "demand": 7,
+      "serviceTime": 12,
+      "timeWindow": {
+        "start": 289,
+        "end": 412
+      },
+      "priority": 3
+    },
+    {
+      "id": "G16",
+      "x": 360,
+      "y": 161,
+      "demand": 7,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 325,
+        "end": 354
+      },
+      "priority": 4
+    },
+    {
+      "id": "G17",
+      "x": 393,
+      "y": 55,
+      "demand": 9,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 537,
+        "end": 574
+      },
+      "priority": 4
+    },
+    {
+      "id": "G18",
+      "x": 78,
+      "y": 433,
+      "demand": 10,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 468,
+        "end": 694
+      },
+      "priority": 1
+    },
+    {
+      "id": "G19",
+      "x": 550,
+      "y": 378,
+      "demand": 4,
+      "serviceTime": 19,
+      "timeWindow": {
+        "start": 323,
+        "end": 538
+      },
+      "priority": 5
+    },
+    {
+      "id": "G20",
+      "x": 166,
+      "y": 194,
+      "demand": 3,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 538,
+        "end": 797
+      },
+      "priority": 3
+    },
+    {
+      "id": "G21",
+      "x": 401,
+      "y": 140,
+      "demand": 4,
+      "serviceTime": 24,
+      "timeWindow": {
+        "start": 524,
+        "end": 759
+      },
+      "priority": 3
+    },
+    {
+      "id": "G22",
+      "x": 394,
+      "y": 54,
+      "demand": 8,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 107,
+        "end": 187
+      },
+      "priority": 4
+    },
+    {
+      "id": "G23",
+      "x": 119,
+      "y": 55,
+      "demand": 5,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 528,
+        "end": 777
+      },
+      "priority": 3
+    },
+    {
+      "id": "G24",
+      "x": 463,
+      "y": 457,
+      "demand": 9,
+      "serviceTime": 23,
+      "timeWindow": {
+        "start": 184,
+        "end": 345
+      },
+      "priority": 3
+    },
+    {
+      "id": "G25",
+      "x": 105,
+      "y": 255,
+      "demand": 5,
+      "serviceTime": 14,
+      "timeWindow": {
+        "start": 410,
+        "end": 677
+      },
+      "priority": 1
+    },
+    {
+      "id": "G26",
+      "x": 218,
+      "y": 304,
+      "demand": 4,
+      "serviceTime": 13,
+      "timeWindow": {
+        "start": 42,
+        "end": 70
+      },
+      "priority": 5
+    },
+    {
+      "id": "G27",
+      "x": 70,
+      "y": 259,
+      "demand": 4,
+      "serviceTime": 11,
+      "timeWindow": {
+        "start": 400,
+        "end": 476
+      },
+      "priority": 2
+    },
+    {
+      "id": "G28",
+      "x": 434,
+      "y": 98,
+      "demand": 10,
+      "serviceTime": 18,
+      "timeWindow": {
+        "start": 365,
+        "end": 466
+      },
+      "priority": 2
+    },
+    {
+      "id": "G29",
+      "x": 233,
+      "y": 91,
+      "demand": 3,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 416,
+        "end": 654
+      },
+      "priority": 2
+    },
+    {
+      "id": "G30",
+      "x": 93,
+      "y": 497,
+      "demand": 4,
+      "serviceTime": 25,
+      "timeWindow": {
+        "start": 380,
+        "end": 473
+      },
+      "priority": 2
+    },
+    {
+      "id": "G31",
+      "x": 239,
+      "y": 330,
+      "demand": 10,
+      "serviceTime": 10,
+      "timeWindow": {
+        "start": 240,
+        "end": 422
+      },
+      "priority": 5
+    },
+    {
+      "id": "G32",
+      "x": 250,
+      "y": 303,
+      "demand": 4,
+      "serviceTime": 15,
+      "timeWindow": {
+        "start": 289,
+        "end": 333
+      },
+      "priority": 2
+    },
+    {
+      "id": "G33",
+      "x": 232,
+      "y": 129,
+      "demand": 5,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 295,
+        "end": 528
+      },
+      "priority": 3
+    },
+    {
+      "id": "G34",
+      "x": 249,
+      "y": 330,
+      "demand": 8,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 444,
+        "end": 588
+      },
+      "priority": 3
+    },
+    {
+      "id": "G35",
+      "x": 165,
+      "y": 128,
+      "demand": 7,
+      "serviceTime": 23,
+      "timeWindow": {
+        "start": 301,
+        "end": 430
+      },
+      "priority": 1
+    },
+    {
+      "id": "G36",
+      "x": 212,
+      "y": 29,
+      "demand": 8,
+      "serviceTime": 22,
+      "timeWindow": {
+        "start": 523,
+        "end": 748
+      },
+      "priority": 1
+    },
+    {
+      "id": "G37",
+      "x": 221,
+      "y": 254,
+      "demand": 6,
+      "serviceTime": 12,
+      "timeWindow": {
+        "start": 584,
+        "end": 774
+      },
+      "priority": 4
+    },
+    {
+      "id": "G38",
+      "x": 325,
+      "y": 585,
+      "demand": 7,
+      "serviceTime": 17,
+      "timeWindow": {
+        "start": 359,
+        "end": 430
+      },
+      "priority": 2
+    },
+    {
+      "id": "G39",
+      "x": 386,
+      "y": 539,
+      "demand": 6,
+      "serviceTime": 23,
+      "timeWindow": {
+        "start": 480,
+        "end": 626
+      },
+      "priority": 5
+    },
+    {
+      "id": "G40",
+      "x": 97,
+      "y": 182,
+      "demand": 7,
+      "serviceTime": 17,
+      "timeWindow": {
+        "start": 154,
+        "end": 292
+      },
+      "priority": 2
+    },
+    {
+      "id": "G41",
+      "x": 556,
+      "y": 423,
+      "demand": 7,
+      "serviceTime": 23,
+      "timeWindow": {
+        "start": 440,
+        "end": 633
+      },
+      "priority": 2
+    },
+    {
+      "id": "G42",
+      "x": 212,
+      "y": 370,
+      "demand": 7,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 326,
+        "end": 378
+      },
+      "priority": 2
+    },
+    {
+      "id": "G43",
+      "x": 187,
+      "y": 196,
+      "demand": 8,
+      "serviceTime": 25,
+      "timeWindow": {
+        "start": 474,
+        "end": 702
+      },
+      "priority": 4
+    },
+    {
+      "id": "G44",
+      "x": 297,
+      "y": 225,
+      "demand": 4,
+      "serviceTime": 21,
+      "timeWindow": {
+        "start": 578,
+        "end": 709
+      },
+      "priority": 2
+    },
+    {
+      "id": "G45",
+      "x": 43,
+      "y": 262,
+      "demand": 10,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 422,
+        "end": 685
+      },
+      "priority": 2
+    },
+    {
+      "id": "G46",
+      "x": 389,
+      "y": 69,
+      "demand": 4,
+      "serviceTime": 17,
+      "timeWindow": {
+        "start": 56,
+        "end": 274
+      },
+      "priority": 4
+    },
+    {
+      "id": "G47",
+      "x": 434,
+      "y": 330,
+      "demand": 10,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 124,
+        "end": 343
+      },
+      "priority": 4
+    },
+    {
+      "id": "G48",
+      "x": 400,
+      "y": 341,
+      "demand": 5,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 326,
+        "end": 416
+      },
+      "priority": 3
+    },
+    {
+      "id": "G49",
+      "x": 70,
+      "y": 80,
+      "demand": 9,
+      "serviceTime": 24,
+      "timeWindow": {
+        "start": 179,
+        "end": 270
+      },
+      "priority": 5
+    },
+    {
+      "id": "G50",
+      "x": 281,
+      "y": 203,
+      "demand": 8,
+      "serviceTime": 24,
+      "timeWindow": {
+        "start": 447,
+        "end": 570
+      },
+      "priority": 4
+    }
+  ],
+  "vehicles": {
+    "count": 10,
+    "capacity": 25,
+    "maxRouteDuration": 500
+  }
+}

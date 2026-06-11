@@ -1,0 +1,91 @@
+{
+  "name": "tight-windows",
+  "depot": {
+    "id": "D0",
+    "x": 50,
+    "y": 50,
+    "timeWindow": {
+      "start": 0,
+      "end": 260
+    }
+  },
+  "customers": [
+    {
+      "id": "A1",
+      "x": 18,
+      "y": 66,
+      "demand": 1,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 5,
+        "end": 40
+      },
+      "priority": 4
+    },
+    {
+      "id": "A2",
+      "x": 24,
+      "y": 26,
+      "demand": 2,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 15,
+        "end": 65
+      },
+      "priority": 3
+    },
+    {
+      "id": "A3",
+      "x": 74,
+      "y": 74,
+      "demand": 2,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 30,
+        "end": 70
+      },
+      "priority": 4
+    },
+    {
+      "id": "A4",
+      "x": 88,
+      "y": 38,
+      "demand": 1,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 50,
+        "end": 95
+      },
+      "priority": 2
+    },
+    {
+      "id": "A5",
+      "x": 62,
+      "y": 16,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 20,
+        "end": 60
+      },
+      "priority": 3
+    },
+    {
+      "id": "A6",
+      "x": 48,
+      "y": 86,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 45,
+        "end": 110
+      },
+      "priority": 1
+    }
+  ],
+  "vehicles": {
+    "count": 2,
+    "capacity": 5,
+    "maxRouteDuration": 190
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "name": "medium-easy",
+  "depot": {
+    "id": "D0",
+    "x": 50,
+    "y": 50,
+    "timeWindow": {
+      "start": 0,
+      "end": 360
+    }
+  },
+  "customers": [
+    {
+      "id": "M1",
+      "x": 24,
+      "y": 72,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 0,
+        "end": 150
+      },
+      "priority": 2
+    },
+    {
+      "id": "M2",
+      "x": 31,
+      "y": 82,
+      "demand": 2,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 20,
+        "end": 170
+      },
+      "priority": 3
+    },
+    {
+      "id": "M3",
+      "x": 42,
+      "y": 76,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 30,
+        "end": 190
+      },
+      "priority": 1
+    },
+    {
+      "id": "M4",
+      "x": 68,
+      "y": 78,
+      "demand": 2,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 40,
+        "end": 210
+      },
+      "priority": 2
+    },
+    {
+      "id": "M5",
+      "x": 78,
+      "y": 68,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 35,
+        "end": 210
+      },
+      "priority": 2
+    },
+    {
+      "id": "M6",
+      "x": 84,
+      "y": 54,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 50,
+        "end": 230
+      },
+      "priority": 1
+    },
+    {
+      "id": "M7",
+      "x": 76,
+      "y": 34,
+      "demand": 3,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 80,
+        "end": 260
+      },
+      "priority": 3
+    },
+    {
+      "id": "M8",
+      "x": 66,
+      "y": 24,
+      "demand": 2,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 70,
+        "end": 250
+      },
+      "priority": 2
+    },
+    {
+      "id": "M9",
+      "x": 52,
+      "y": 18,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 60,
+        "end": 245
+      },
+      "priority": 1
+    },
+    {
+      "id": "M10",
+      "x": 36,
+      "y": 22,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 55,
+        "end": 240
+      },
+      "priority": 2
+    },
+    {
+      "id": "M11",
+      "x": 24,
+      "y": 34,
+      "demand": 2,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 40,
+        "end": 225
+      },
+      "priority": 2
+    },
+    {
+      "id": "M12",
+      "x": 18,
+      "y": 48,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 30,
+        "end": 220
+      },
+      "priority": 1
+    },
+    {
+      "id": "M13",
+      "x": 34,
+      "y": 58,
+      "demand": 3,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 15,
+        "end": 200
+      },
+      "priority": 3
+    },
+    {
+      "id": "M14",
+      "x": 48,
+      "y": 66,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 20,
+        "end": 205
+      },
+      "priority": 2
+    },
+    {
+      "id": "M15",
+      "x": 62,
+      "y": 60,
+      "demand": 2,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 25,
+        "end": 215
+      },
+      "priority": 2
+    },
+    {
+      "id": "M16",
+      "x": 58,
+      "y": 42,
+      "demand": 1,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 45,
+        "end": 235
+      },
+      "priority": 1
+    }
+  ],
+  "vehicles": {
+    "count": 4,
+    "capacity": 8,
+    "maxRouteDuration": 220
+  }
+}

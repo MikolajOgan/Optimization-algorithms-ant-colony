@@ -1,0 +1,17 @@
+{
+  "colonySize": 10,
+  "iterations": 25,
+  "alpha": 0.95,
+  "beta": 3.2,
+  "evaporationRate": 0.38,
+  "evaporationRateStep": -0.004,
+  "minEvaporationRate": 0.09,
+  "maxEvaporationRate": 0.45,
+  "eliteWeight": 1.8,
+  "globalBestWeight": 2.5,
+  "stagnationPheromoneJitter": 0.025,
+  "candidateWidth": 5,
+  "localSearch": true,
+  "stagnationWindow": 7,
+  "randomSeed": 42
+}

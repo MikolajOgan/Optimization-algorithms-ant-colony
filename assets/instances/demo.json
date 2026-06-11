@@ -1,0 +1,79 @@
+{
+  "name": "demo",
+  "depot": {
+    "id": "D0",
+    "x": 50,
+    "y": 50,
+    "timeWindow": {
+      "start": 0,
+      "end": 240
+    }
+  },
+  "customers": [
+    {
+      "id": "C1",
+      "x": 20,
+      "y": 70,
+      "demand": 2,
+      "serviceTime": 8,
+      "timeWindow": {
+        "start": 10,
+        "end": 90
+      },
+      "priority": 3
+    },
+    {
+      "id": "C2",
+      "x": 28,
+      "y": 24,
+      "demand": 2,
+      "serviceTime": 5,
+      "timeWindow": {
+        "start": 0,
+        "end": 100
+      },
+      "priority": 2
+    },
+    {
+      "id": "C3",
+      "x": 70,
+      "y": 80,
+      "demand": 1,
+      "serviceTime": 7,
+      "timeWindow": {
+        "start": 15,
+        "end": 120
+      },
+      "priority": 1
+    },
+    {
+      "id": "C4",
+      "x": 82,
+      "y": 36,
+      "demand": 3,
+      "serviceTime": 9,
+      "timeWindow": {
+        "start": 40,
+        "end": 160
+      },
+      "priority": 2
+    },
+    {
+      "id": "C5",
+      "x": 58,
+      "y": 18,
+      "demand": 1,
+      "serviceTime": 6,
+      "timeWindow": {
+        "start": 0,
+        "end": 110
+      },
+      "priority": 1
+    }
+  ],
+  "vehicles": {
+    "count": 2,
+    "capacity": 5,
+    "maxRouteDuration": 180
+  }
+}
